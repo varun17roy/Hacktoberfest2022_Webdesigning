@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Loading animation</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style type="text/css">
+  body {
+    background: #3498db;
+    font-family: sans-serif;
+  }
+  h1 {
+    margin-top: 18%;
+    position: relative;
+    text-align: center;
+    color: rgba(0, 0, 0, .3);
+    font-size: 5em
+  }
+  h1:before {
+    content: attr(data-text);
+    position: absolute;
+    overflow: hidden;
+    max-width: 7em;
+    white-space: nowrap;
+    color: #fff;
+    animation: loading 4s linear infinite;
+  }
+  @keyframes loading {
+    0% {
+      max-width: 0;
+    }
+  }
+  </style>
+
+</head>
+<body>
+  <h1 data-text="It's loading…">It's loading…</h1>
+</body>
+</html>
