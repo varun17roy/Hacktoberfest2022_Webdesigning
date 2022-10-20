@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <style>
+     .ani1 ,.ani2,.ani3,.ani4{
+        width: 80px;
+        height: 400px;
+        position: relative;
+      
+        object-fit: cover;
+
+        animation-timing-function:ease;
+
+        animation-name: example;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+       
+     }
+
+     .ani1 {
+      animation-name: example1;
+      margin-top: 20px;
+     }
+     .ani2{
+      animation-name: example2;
+     }
+     .ani3{
+      animation-name: example3;
+      margin-top: 20px;
+     }
+     .ani4{
+      animation-name: example4;
+     }
+
+
+     @keyframes example1 {
+  0%   {background: url(./hero_1.png); top:10px; left:20px;  object-fit: cover; background-repeat: no-repeat;  background-size: cover;}
+  10%  {background: url(./hero_1.png); top:20px; left:20px;  object-fit: cover; background-repeat: no-repeat;  background-size: cover;}
+  20%  {background: url(./hero_1.png); top:30px; left:20px;  object-fit: cover; background-repeat: no-repeat;  background-size: cover;}
+  30%  {background: url(./hero_1.png); top:40px; left:20px;  object-fit: cover; background-repeat: no-repeat;  background-size: cover;}
+  40% {background: url(./hero_1.png); top:50; left:20px;  object-fit: cover; background-repeat: no-repeat;  background-size: cover;}
+  50%  {background: url(./hero_1.png); top:60px; left:20px;  object-fit: cover; background-repeat: no-repeat;  background-size: cover;}
+  60%  {background: url(./hero_1.png); top:50px; left:20px;  object-fit: cover; background-repeat: no-repeat;  background-size: cover;}
+  70%  {background: url(./hero_1.png); top:40px; left:20px;  object-fit: cover; background-repeat: no-repeat;  background-size: cover;}
+  80% {background: url(./hero_1.png); top:30; left:20px;  object-fit: cover; background-repeat: no-repeat;  background-size: cover;}
+  90% {background: url(./hero_1.png); top:20; left:20px;  object-fit: cover; background-repeat: no-repeat;  background-size: cover;}
+  100% {background: url(./hero_1.png); top:10; left:20px;  object-fit: cover; background-repeat: no-repeat;  background-size: cover;}
+}
+     @keyframes example2 {
+  0%   {background: url(./hero_2.png); top:20px; left:20px;  object-fit: cover; background-repeat: no-repeat;  background-size: cover;}
+  10%  {background: url(./hero_2.png); top:30px; left:20px;  object-fit: cover; background-repeat: no-repeat;  background-size: cover;}
+  20%  {background: url(./hero_2.png); top:40px; left:20px;  object-fit: cover; background-repeat: no-repeat;  background-size: cover;}
+  30%  {background: url(./hero_2.png); top:50px; left:20px;  object-fit: cover; background-repeat: no-repeat;  background-size: cover;}
+  40% {background: url(./hero_2.png); top:60; left:20px;  object-fit: cover; background-repeat: no-repeat;  background-size: cover;}
+  50%  {background: url(./hero_2.png); top:70px; left:20px;  object-fit: cover; background-repeat: no-repeat;  background-size: cover;}
+  60%  {background: url(./hero_2.png); top:60px; left:20px;  object-fit: cover; background-repeat: no-repeat;  background-size: cover;}
+  70%  {background: url(./hero_2.png); top:50px; left:20px;  object-fit: cover; background-repeat: no-repeat;  background-size: cover;}
+  80% {background: url(./hero_2.png); top:40; left:20px;  object-fit: cover; background-repeat: no-repeat;  background-size: cover;}
+  90% {background: url(./hero_2.png); top:30; left:20px;  object-fit: cover; background-repeat: no-repeat;  background-size: cover;}
+  100% {background: url(./hero_2.png); top:20; left:20px;  object-fit: cover; background-repeat: no-repeat;  background-size: cover;}
+}
+     @keyframes example3 {
+  0%   {background: url(./hero_3.png); top:10px; left:20px;  object-fit: cover; background-repeat: no-repeat;  background-size: cover;}
+  10%  {background: url(./3.png); top:20px; left:20px;  object-fit: cover; background-repeat: no-repeat;  background-size: cover;}
+  20%  {background: url(./hero_3.png); top:30px; left:20px;  object-fit: cover; background-repeat: no-repeat;  background-size: cover;}
+  30%  {background: url(./hero_3.png); top:40px; left:20px;  object-fit: cover; background-repeat: no-repeat;  background-size: cover;}
+  40% {background: url(./hero_3.png); top:50; left:20px;  object-fit: cover; background-repeat: no-repeat;  background-size: cover;}
+  50%  {background: url(./hero_3.png); top:60px; left:20px;  object-fit: cover; background-repeat: no-repeat;  background-size: cover;}
+  60%  {background: url(./hero_3.png); top:50px; left:20px;  object-fit: cover; background-repeat: no-repeat;  background-size: cover;}
+  70%  {background: url(./hero_3.png); top:40px; left:20px;  object-fit: cover; background-repeat: no-repeat;  background-size: cover;}
+  80% {background: url(./hero_3.png); top:30; left:20px;  object-fit: cover; background-repeat: no-repeat;  background-size: cover;}
+  90% {background: url(./hero_3.png); top:20; left:20px;  object-fit: cover; background-repeat: no-repeat;  background-size: cover;}
+  100% {background: url(./hero_3.png); top:10; left:20px;  object-fit: cover; background-repeat: no-repeat;  background-size: cover;}
+}
+     @keyframes example4 {
+  0%   {background: url(./hero_4.png); top:10px; left:20px;  object-fit: cover; background-repeat: no-repeat;  background-size: cover;}
+  10%  {background: url(./hero_4.png); top:20px; left:20px;  object-fit: cover; background-repeat: no-repeat;  background-size: cover;}
+  20%  {background: url(./hero_4.png); top:30px; left:20px;  object-fit: cover; background-repeat: no-repeat;  background-size: cover;}
+  30%  {background: url(./hero_4.png); top:40px; left:20px;  object-fit: cover; background-repeat: no-repeat;  background-size: cover;}
+  40% {background: url(./hero_4.png); top:50; left:20px;  object-fit: cover; background-repeat: no-repeat;  background-size: cover;}
+  50%  {background: url(./hero_4.png); top:60px; left:20px;  object-fit: cover; background-repeat: no-repeat;  background-size: cover;}
+  60%  {background: url(./hero_4.png); top:50px; left:20px;  object-fit: cover; background-repeat: no-repeat;  background-size: cover;}
+  70%  {background: url(./hero_4.png); top:40px; left:20px;  object-fit: cover; background-repeat: no-repeat;  background-size: cover;}
+  80% {background: url(./hero_4.png); top:30; left:20px;  object-fit: cover; background-repeat: no-repeat;  background-size: cover;}
+  90% {background: url(./hero_4.png); top:20; left:20px;  object-fit: cover; background-repeat: no-repeat;  background-size: cover;}
+  100% {background: url(./hero_4.png); top:10; left:20px;  object-fit: cover; background-repeat: no-repeat;  background-size: cover;}
+}
+
+
+
+.examplemain{
+  display: flex;
+  gap: 10px;
+}
+  </style>
+
+
+</head>
+
+<body>
+    
+<h1>CSS Animation : Animate Like a Pro</h1>
+
+<div class="examplemain">
+  <div class="ani1"></div>
+<div class="ani2"></div>
+<div class="ani3"></div>
+<div class="ani4"></div>
+</div>
+
+
+</body>
+</html>
